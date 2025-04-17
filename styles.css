@@ -1,9 +1,14 @@
 /*  your css code here. If applicable */
-nav{
+.container{
 	background-color: #D3D3D3;
 	padding: 10px;
 }
-nav li{
+
+ul{
+	display: flex;
+}
+
+.container li{
 	display: inline;
 	list-style: none;
 	margin-right: 1rem;
